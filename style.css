@@ -57,8 +57,10 @@ main {
 }
 
 #logo {
-    padding-top: 18vh;
-    height: 92px;
+    padding-top: 8vh;
+    height: 152px;
+    width: 350px;
+
 }
 
 #buscador {
