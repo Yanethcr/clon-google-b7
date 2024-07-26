@@ -15,6 +15,8 @@ body {
 
 figure {
     width: 20px;
+    margin: 0px;
+    padding: 10px;
 }
 
 #cuadro {
@@ -24,7 +26,7 @@ figure {
 footer div {
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -41,7 +43,6 @@ footer p {
     padding: 15px;
     margin: 0px;
     border-bottom: 1px solid #dadce0;
-
 }
 
 nav {
@@ -56,15 +57,15 @@ main {
 }
 
 #logo {
-    margin-top: 18vh;
+    padding-top: 18vh;
     height: 92px;
 }
 
 #buscador {
     display: flex;
     justify-content: center;
-    border: 1px solid #dadce0;
     align-items: stretch;
+    border: 1px solid #dadce0;
     height: 40px;
     width: 572px;
     border-radius: 25px;
@@ -79,6 +80,8 @@ main {
 
 #buscador input {
     flex-grow: 1;
+    border: none;
+    outline: none;
 }
 
 article {
@@ -86,8 +89,7 @@ article {
 }
 
 footer {
-    background:
-        #f2f2f2;
+    background: #f2f2f2;
 }
 
 button {
@@ -95,29 +97,27 @@ button {
     border: 1px solid #f8f9fa;
     color: #3c4043;
 
+
     padding: 0 16px;
     margin: 11px 4px;
     height: 36px;
 
-    font-size: 14px;
     border-radius: 4px;
+    font-size: 14px;
 }
 
-
 button:hover {
-    /* genera una ilusion visual de como cambia el boton al momento de poner el cursor */
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
 }
 
-
 a {
     text-decoration: none;
 }
 
-/* Esto se ocupa para cambiar un estado */
+/* Esto es para cambiar un estado */
 a:hover {
     text-decoration: underline;
 }
@@ -136,6 +136,4 @@ footer a {
 header ul {
     display: flex;
     align-items: center;
-    padding-top: 10px;
-    padding-right: 15px;
 }
